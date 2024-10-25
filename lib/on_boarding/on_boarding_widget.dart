@@ -29,7 +29,7 @@ class _OnBoardingWidgetState extends State<OnBoardingWidget> {
     // On page load action.
     SchedulerBinding.instance.addPostFrameCallback((_) async {
       if (!FFAppState().ShowOnBoard) {
-        context.pushNamed('PageTest');
+        context.pushNamed('HomePage');
       }
     });
   }
@@ -96,7 +96,7 @@ class _OnBoardingWidgetState extends State<OnBoardingWidget> {
                                         curve: Curves.ease,
                                       );
                                       if (_model.pageViewCurrentIndex == 3) {
-                                        context.pushNamed('PageTest');
+                                        context.pushNamed('HomePage');
                                       }
                                     },
                                     text: 'Continue',
@@ -206,7 +206,7 @@ class _OnBoardingWidgetState extends State<OnBoardingWidget> {
                                         curve: Curves.ease,
                                       );
                                       if (_model.pageViewCurrentIndex == 3) {
-                                        context.pushNamed('PageTest');
+                                        context.pushNamed('HomePage');
                                       }
                                     },
                                     text: 'Continue',
@@ -425,7 +425,7 @@ class _OnBoardingWidgetState extends State<OnBoardingWidget> {
                                       if (_model.pageViewCurrentIndex == 3) {
                                         FFAppState().ShowOnBoard = false;
 
-                                        context.pushNamed('PageTest');
+                                        context.pushNamed('HomePage');
                                       }
                                     },
                                     text: 'Let\'s Go',

@@ -63,9 +63,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               : const OnBoardingWidget(),
         ),
         FFRoute(
-          name: 'PageTest',
-          path: '/pageTest',
-          builder: (context, params) => const PageTestWidget(),
+          name: 'HomePage',
+          path: '/homePage',
+          builder: (context, params) => const HomePageWidget(),
         ),
         FFRoute(
           name: 'OnBoarding',

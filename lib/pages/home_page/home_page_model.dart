@@ -1,8 +1,8 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import 'page_test_widget.dart' show PageTestWidget;
+import 'home_page_widget.dart' show HomePageWidget;
 import 'package:flutter/material.dart';
 
-class PageTestModel extends FlutterFlowModel<PageTestWidget> {
+class HomePageModel extends FlutterFlowModel<HomePageWidget> {
   ///  State fields for stateful widgets in this page.
 
   // State field(s) for PageView widget.
