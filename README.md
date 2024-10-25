@@ -1,6 +1,6 @@
 # MMTC Media by Alpha
 
-A new Flutter project.
+Aplikasi ini diperuntukkan untuk Gelar Karya Simulasi Angkatan 21 Sekolah Tinggi Multi Media Yogyakarta.
 
 ## Getting Started
 
